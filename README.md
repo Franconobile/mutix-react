@@ -4,7 +4,7 @@ Proyecto de una simple humilde social media, hecha en React, Node JS Redux Mongo
 
 En construcción y nada funcional por el momento. No incluye backend.
 
-## Instapación 
+## Instalación 
 
 - `npm install`
 
