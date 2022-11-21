@@ -28,13 +28,15 @@ const Post = () => {
                 <img src={`${post1}`} className='postImage' alt="Imagen posteada" />
             </div>
             <div className='cardFooter'>
-                <QuestionAnswerIcon/>
-                <RepeatIcon/>
+                <QuestionAnswerIcon className='footerIcons'/>
+                <RepeatIcon className='footerIcons'/>
                 <div className='reactionsPost'>
-                    <AddReactionIcon/>
+                    <AddReactionIcon className='footerIcons'/>
                 </div>
             </div>
         </SubPostContainer>
+
+        
     </PostContainer>
   )
 }

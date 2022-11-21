@@ -22,7 +22,7 @@ const Leftbar = () => {
         <Link>
           <NotificationsIcon style={{color:'#B5B4C3', background: 'none', fontSize: '35px'}}/>
         </Link>
-        <Link>
+        <Link to="/user">
           <PersonIcon style={{color:'#B5B4C3', background: 'none', fontSize: '35px'}}/>
         </Link>
           

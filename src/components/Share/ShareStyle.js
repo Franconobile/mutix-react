@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContentUploadContainer = styled.div`
-width: 50%;
+width: 60%;
 background: #212529;
 min-height: 150px;
 border-radius: 10px;

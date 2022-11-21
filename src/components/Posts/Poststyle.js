@@ -1,8 +1,9 @@
 import styled from "styled-components"
 
+
 export const PostContainer = styled.div`
-width: 50%;
-margin: auto;
+width: 60%;
+margin: auto; 
 min-height: 150px;
 position: relative;
 top: 55px;
@@ -10,7 +11,6 @@ background: #212529;
 border-radius: 10px;
 margin-top: 20px;
 border: solid 1px #43464A;
-
 `
 
 export const SubPostContainer = styled.div`
@@ -83,6 +83,11 @@ border-radius: 10px;
     gap: 20px;
     padding-inline: 15px;
     border-radius: 0px 0px 10px 10px;
+}
+
+.footerIcons:hover {
+    cursor: pointer;
+    color: #D8D7EA;
 }
 
 .reactionsPost:last-of-type {
