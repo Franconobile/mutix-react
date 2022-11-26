@@ -2,9 +2,8 @@ import styled from "styled-components"
 
 
 export const PostContainer = styled.div`
-width: 60%;
+width: 700px;
 margin-left: 130px;
-height: 100%;
 position: relative;
 top: 55px;
 background: #212529;

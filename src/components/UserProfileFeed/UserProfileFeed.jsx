@@ -23,32 +23,6 @@ const UserProfileFeed = () => {
         </div>
         <div className='cardBody'>
             <p>
-                Este es un post que solo contiente texto
-            </p>
-        </div>
-        <div className='cardFooter'>
-            <QuestionAnswerIcon className='footerIcons'/>
-            <RepeatIcon className='footerIcons'/>
-            <div className='reactionsPost'>
-                <AddReactionIcon className='footerIcons'/>
-            </div>
-        </div>
-    </SubPostContainer>
-
-    <SubPostContainer>
-        <div className='cardHeader'>
-            <img src={`${anyapfp}`} className="PostPfp" alt="Profile pic en post" />
-                <div className='userAndDate'>
-                    <span className='userInfo'>
-                        <a href='#'>Sakku</a>
-                    </span>
-                    <small className='dateInfo'>
-                        <a href='#'>Hace 5 minutos</a>
-                    </small>
-                </div>
-        </div>
-        <div className='cardBody'>
-            <p>
                 Hola mundo. Tengo que seguir experimentando más funciones!
             </p>
         </div>
@@ -60,7 +34,8 @@ const UserProfileFeed = () => {
             </div>
         </div>
     </SubPostContainer>
-</PostContainer>
+    </PostContainer>
+
   )
 }
 

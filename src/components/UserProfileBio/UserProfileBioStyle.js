@@ -1,27 +1,25 @@
 import styled from "styled-components";
 
 export const UserProfileBioContainer = styled.div`
-
-width: 450px;
-height: 500px;
-margin-top: 20px;
+height: 150px;
 position: relative;
-top: 55px;
-
+top: 40px;
 display: flex;
 flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-left: 90px;
 
-padding-inline: 50px;
-
-
-.userBioAbout {
-    color: #B2B2B2;
+.userBioUsername {
+    font-size: 25px;
+    color: #CBCBCB;
+    display: block;
 }
 
 .userBioContent {
-    color: #A8A8A8;
-    margin-top: 35px;
-    border-top: 1px solid white;
-    padding-top: 25px;
+    margin-top: 20px;
+    color: #999999;
+    display: block;
 }
 `
